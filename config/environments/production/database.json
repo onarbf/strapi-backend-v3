@@ -4,8 +4,8 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME}"
+        "uri": "mongodb://onarbf:YbvvotDtLifOebJO@blog-shard-00-00-1ltaw.mongodb.net:27017,blog-shard-00-01-1ltaw.mongodb.net:27017,blog-shard-00-02-1ltaw.mongodb.net:27017/test?ssl=true&replicaSet=blog-shard-0&authSource=admin&retryWrites=true&w=majority",
+        "database": "blog"
       },
       "options": {
         "ssl": true
